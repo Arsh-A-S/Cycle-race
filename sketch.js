@@ -72,7 +72,7 @@ function draw() {
   
   if(gameState===PLAY){
     
-   distance = distance + Math.round(getFrameRate()/50);
+   distance = distance + Math.round(getFrameRate()/60);
    path.velocityX = -(6 + 2*distance/150);
   
    mainCyclist.y = World.mouseY;
